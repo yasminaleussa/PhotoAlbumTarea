@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace PhotoAlbumTarea
 {
-    class Program
+    class BigPhotoAlbum : PhotoAlbum
     {
-        static void Main(string[] args)
+        public BigPhotoAlbum()
         {
+            _numberOfPages = 64;
+            
         }
     }
 }
