@@ -8,15 +8,17 @@ namespace PhotoAlbumTarea
 {
     class PhotoAlbum
     {
-        protected int _numberOfPages;
+        
 
-        //private int _numberOfPages;
+        protected int _numberOfPages;
 
         public int GetNumberOfPages()
         {
             return _numberOfPages ;
            
         }
+
+       
 
         public  PhotoAlbum()
         {

@@ -10,7 +10,7 @@ namespace PhotoAlbumTarea
     {
         static void Main(string[] args)
         {
-            //PhotoAlbum p1 = new PhotoAlbum();
+            
             PhotoAlbum p1 = new PhotoAlbum();
             Console.WriteLine(p1.GetNumberOfPages());
 
