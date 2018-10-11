@@ -8,11 +8,5 @@ namespace PhotoAlbumTarea
 {
     class BigPhotoAlbum : PhotoAlbum
     {
-        public BigPhotoAlbum()
-        {
-            
-            _numberOfPages = 64;
-           
-        }
     }
 }
